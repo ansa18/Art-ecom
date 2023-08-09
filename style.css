@@ -1,0 +1,93 @@
+a:link,a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.hide{
+    display: none;
+}
+.disp:hover .hide{
+    display: block;
+}
+
+.bannersub:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    border-radius: 25px;
+}
+
+.show:hover .hide{
+    display: block;
+    color: white;
+}
+.time{
+    height: 40px;
+    width: 40px;
+}
+.timer{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.blog:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 2s;
+}
+.update{
+    background-image: url('proj_img/newsletter-parallax.webp');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+}
+.contact{
+    height: 200px;
+    background-image: url('proj_img/contact.webp');
+    /* text-align: center; */
+    padding: 90px;
+}
+/* .breadcrumb{
+    justify-content: center;
+} */
+.accordion{
+    outline: none;
+}
+.div1{
+    height: 370px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 30px;
+}
+.div2{
+    height: 1010px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 30px;
+}
+.div3{
+    height: 380px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 30px;
+}
+.btn-dark:hover{
+    opacity:0.5;
+}
+.clr{
+    height:35px ;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin: 5px;
+    display: inline-block;
+}
+.cartitems
+{
+    margin-left: -300px;
+}
